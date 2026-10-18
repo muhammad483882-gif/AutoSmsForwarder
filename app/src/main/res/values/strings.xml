@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">ارسال کننده خودکار پیامک</string>
+
+    <!-- صفحه اصلی -->
+    <string name="section_rules">قوانین فوروارد</string>
+    <string name="rules_count_fmt">فعال: %1$d از %2$d</string>
+    <string name="switch_title">فوروارد خودکار</string>
+    <string name="switch_subtitle">پیامک‌های منطبق با قوانین، خودکار به شماره مقصد ارسال می‌شوند</string>
+    <string name="empty_rules_title">هنوز قانونی نساخته‌اید</string>
+    <string name="empty_rules_subtitle">با دکمه + اولین قانون فوروارد را بسازید</string>
+    <string name="fab_add">افزودن قانون</string>
+    <string name="cd_history">تاریخچه ارسال</string>
+
+    <!-- نوار دسترسی‌ها -->
+    <string name="permission_banner_title">دسترسی‌های لازم داده نشده است</string>
+    <string name="permission_banner_text">برای دریافت و ارسال خودکار پیامک، روی دکمه زیر بزنید و هر دو دسترسی «پیامک» را مجاز کنید.</string>
+    <string name="grant_permissions">اجازه دسترسی</string>
+
+    <!-- سطر قانون -->
+    <string name="rule_row_condition_sender">هر پیامک از شماره %1$s</string>
+    <string name="rule_row_condition_keyword">پیامک حاوی «%1$s»</string>
+    <string name="rule_row_condition_both">از %1$s و حاوی «%2$s»</string>
+    <string name="rule_row_destination">به شماره %1$s</string>
+
+    <!-- صفحه ویرایش قانون -->
+    <string name="editor_title_new">قانون جدید</string>
+    <string name="editor_title_edit">ویرایش قانون</string>
+    <string name="mode_title">شرط فوروارد</string>
+    <string name="mode_sender">از شماره مشخص</string>
+    <string name="mode_sender_desc">هر پیامکی که از این شماره برسد، کامل به شماره مقصد فوروارد می‌شود.</string>
+    <string name="mode_keyword">کلمه کلیدی در متن</string>
+    <string name="mode_keyword_desc">هر پیامکی که متنش شامل این کلمه یا عبارت باشد، فوروارد می‌شود.</string>
+    <string name="mode_both">شماره + کلمه کلیدی</string>
+    <string name="mode_both_desc">فقط وقتی هر دو شرط همزمان درست باشند، پیامک فوروارد می‌شود.</string>
+    <string name="hint_sender">شماره یا نام فرستنده</string>
+    <string name="helper_sender">مثلاً 09121234567 یا 50001 یا Bank</string>
+    <string name="hint_keyword">کلمه یا عبارت کلیدی</string>
+    <string name="helper_keyword">اگر متن پیامک شامل این عبارت باشد فوروارد می‌شود؛ مثلاً: کد تایید</string>
+    <string name="hint_destination">شماره مقصد</string>
+    <string name="helper_destination">پیامک‌های منطبق به این شماره ارسال می‌شوند؛ مثلاً 09351234567</string>
+    <string name="save">ذخیره قانون</string>
+    <string name="delete">حذف قانون</string>
+    <string name="cancel">انصراف</string>
+    <string name="delete_confirm">این قانون حذف شود؟</string>
+    <string name="rule_saved">قانون ذخیره شد</string>
+    <string name="rule_deleted">قانون حذف شد</string>
+    <string name="err_need_sender">شماره یا نام فرستنده را وارد کنید</string>
+    <string name="err_need_keyword">کلمه کلیدی را وارد کنید</string>
+    <string name="err_need_destination">شماره مقصد را وارد کنید</string>
+
+    <!-- تاریخچه -->
+    <string name="history_title">تاریخچه ارسال</string>
+    <string name="history_empty_title">تاریخچه خالی است</string>
+    <string name="history_empty_subtitle">پیامک‌های فورواردشده همراه با وضعیت ارسال، اینجا نمایش داده می‌شوند</string>
+    <string name="clear_history">پاک کردن تاریخچه</string>
+    <string name="clear_history_confirm">همه تاریخچه پاک شود؟</string>
+    <string name="from_to_fmt">از %1$s به %2$s</string>
+    <string name="status_pending">در حال ارسال</string>
+    <string name="status_sent">ارسال شد</string>
+    <string name="status_delivered">تحویل شد</string>
+    <string name="status_failed">ناموفق</string>
+
+    <!-- خطاهای ارسال -->
+    <string name="err_no_send_permission">دسترسی ارسال پیامک داده نشده است</string>
+    <string name="err_unknown_send">خطای ناشناخته در ارسال</string>
+    <string name="err_generic_failure">خطای عمومی در ارسال پیامک</string>
+    <string name="err_radio_off">رادیو (سیم‌کارت) خاموش است</string>
+    <string name="err_no_service">سرویس شبکه در دسترس نیست</string>
+    <string name="err_null_pdu">خطای PDU</string>
+    <string name="err_send_code">خطا در ارسال (کد %1$d)</string>
+</resources>
